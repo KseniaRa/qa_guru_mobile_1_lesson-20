@@ -14,6 +14,7 @@ import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
 import static helpers.Attach.getSessionId;
 
 public class TestBase {
+
     @BeforeAll
     public static void setup() {
         addListener("AllureSelenide", new AllureSelenide());
